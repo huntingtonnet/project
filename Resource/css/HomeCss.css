@@ -1,0 +1,22 @@
+﻿
+
+p.FirstParagraph::first-letter {
+    font-size: 400%;
+    float: left;
+    line-height: 0.4;
+    font-family: 'Lovers Quarrel', cursive;
+    
+
+}
+
+p.SecondParagraph::first-letter {
+    font-size: 400%;
+    float: left;
+    line-height: 0.4;
+    font-family: 'Lovers Quarrel', cursive;
+   
+}
+
+p {
+     text-align: justify;
+}

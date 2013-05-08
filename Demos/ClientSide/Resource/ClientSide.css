@@ -1,0 +1,219 @@
+﻿.head {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #78b20c;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+.MainTitle {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.success {
+    color: #0b932f;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#Message {
+    padding-top: 15px;
+
+}
+
+.error {
+    color: #f00;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tableTitle {
+    color: #0a3649;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 1px 2px 2px #83cb1c;
+}
+
+.star {
+    font-family: 'Lemon', cursive;
+    padding-bottom: 0px;
+    font-weight: bolder;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    color: #83cb1c;
+    animation: thumb 800ms;
+    animation-iteration-count: 9;
+    -webkit-animation: thumb 800ms; /* Safari and Chrome */
+    -webkit-animation-iteration-count: 9;
+}
+
+@-webkit-keyframes thumb {
+
+    0% {
+        -webkit-transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@-webkit-keyframes MyAnimation /* Safari and Chrome */
+{
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: hotpink;
+    }
+
+    100% {
+        background-color: #90c310;
+    }
+}
+
+@keyframes MyAnimation {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: hotpink;
+    }
+
+    100% {
+        background-color: #90c310;
+    }
+}
+
+input[type=button] {
+    background-color: #cbd0d3;
+    padding: 8px;
+    font-weight: bold;
+    color: #4a3fa9;
+    opacity: 1;
+    border-color: cornsilk;
+    border-radius: 6px;
+    height: 34px;
+}
+
+    input[type=button]:hover {
+        background-color: #90c310;
+        box-shadow: 2px 2px 5px #ccc;
+        -webkit-animation-name: thumb;
+        -webkit-animation-duration: 200ms;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-animation-iteration-count: 3;
+        -webkit-animation-timing-function: linear;
+    }
+
+.timesTable {
+    margin: 0 auto;
+    padding-bottom: 0;
+    border-collapse: collapse;
+}
+
+.cell {
+    border: 1px solid black;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.row {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.diagonal {
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    animation: MyAnimation 2s;
+    animation-iteration-count: infinite;
+    -webkit-animation: MyAnimation 2s; /* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+}
+
+.firstRow {
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    font-size: 12px;
+    color: #c27420;
+    font-weight: bolder;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.firstColumn {
+    
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    font-size: 13px;
+    color: #c27420;
+    font-weight: bolder;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.firstCell {
+    border: 1px solid transparent;
+    font-size: 14px;
+    color: #c27420;
+    font-weight: bolder;
+    width: 30px;
+    height: 30px;
+}
+
+
+#numberInput {
+    border-radius: 3px;
+    border-color: #ccc;
+    border-width: 1px;
+    padding: 4px;
+    color: #371470;
+    font-size: 16px;
+    font-weight: bolder;
+    transition: all 0.4s ease-in-out;
+    width: 120px;
+}
+
+
+    #numberInput:focus {
+        background-color: #e4fbab;
+        font-weight: bolder;
+        color: #027519;
+    }

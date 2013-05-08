@@ -1,0 +1,205 @@
+﻿
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Lovers+Quarrel);
+@import url(http://fonts.googleapis.com/css?family=Lemon);
+@import url(http://fonts.googleapis.com/css?family=Rye);
+
+html { 
+  background: url('/Resource/image/wall.jpg') no-repeat top center fixed; 
+
+}
+
+body {
+    /*
+    background-image: url('/Resource/image/tile.png');
+        */
+    width: 720px;
+    margin: 0 auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+header {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#content {
+    float: right;
+    width: 76%;
+}
+
+#navigation {
+    float: left;
+    width: 22%;
+}
+
+
+
+
+
+h2 {
+    margin-bottom: 0px;
+}
+
+#MainMenu {
+    font-weight: bold;
+    color: #465c71;
+    width: 100%;
+    background-color: #465c71;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+li.static:first-child {
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#MainMenu ul
+{
+    
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  
+
+}
+
+
+
+#MainMenu ul li a, #MainMenu ul li a:visited, .SubMenu, .SubMenuItem{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 0px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    width: 137px;
+}
+
+#MainMenu ul li a:hover
+{
+    
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+#MainMenu ul li a:active
+{
+    width: 137px;
+    background-color: #465c71;
+    padding: 4px 0px;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+
+#MainSiteMapPath {
+    margin-bottom: 20px;
+}
+
+p.FirstParagraph::first-letter {
+    font-size: 400%;
+    float: left;
+    line-height: 0.4;
+    font-family: 'Lovers Quarrel', cursive;
+}
+
+.FirstParagraph {
+    text-align: justify;
+}
+
+.LinkTo {
+    color: #f13412;
+}
+
+    .LinkTo:hover {
+        color: #8e18c4;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px #cbd0d3;
+    }
+
+
+h3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    font-weight: normal;
+    font-size: 24px;
+    color: #4e667d;
+    text-shadow: 2px 2px 4px #bfcbd6;
+}
+
+.Thank {
+    padding-top: 10px;
+    padding-right: 100px;
+    float: right;
+    padding-bottom: 0px;
+}
+
+.signature {
+    padding-top: 0px;
+    padding-right: 85px;
+    float: right;
+}
+
+.banner {
+    animation: animate;
+    animation-iteration-count: 3;
+    transform-origin: 30% 70%;
+    animation-duration: 150ms;
+    animation-timing-function: ease-out;
+    -webkit-animation-name: animate;
+    -webkit-animation-duration: 150ms;
+    -webkit-transform-origin: 30% 70%;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-timing-function: ease-in;
+    color: #230d46;
+    text-shadow: 1px 2px 3px #1c7080;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@-webkit-keyframes animate {
+
+    0% {
+        -webkit-transform: scale(1);
+        color: #fbb889;
+    }
+
+    50% {
+        -webkit-transform: scale(0.9);
+        color: #efdc46;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        color: #808080;
+    }
+}
+
+@keyframes animate {
+
+    0% {
+        -webkit-transform: scale(1);
+        color: #fbb889;
+    }
+
+    50% {
+        -webkit-transform: scale(0.9);
+        color: #efdc46;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        color: #808080;
+    }
+}

@@ -1,0 +1,36 @@
+﻿
+div#RightSide {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding-top: 5px;
+}
+
+#LeftSide {
+    padding: 0px;
+    float: left;
+    display: inline;
+    width: 55%;
+    text-align: justify;
+    
+    margin-right: 10px;
+}
+
+.ClearBothSide {
+    clear: both;
+    line-height: 2em;
+}
+
+.noHover:hover {
+    background-color: white;
+}
+
+
+
+
+.title {
+    font-weight: bolder;
+}
+
+
